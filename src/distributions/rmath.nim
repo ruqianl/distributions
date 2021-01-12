@@ -1,5 +1,5 @@
 include
-  private/rmathlib,
+  rmathlib,
   math
 
 # Dummy for math
