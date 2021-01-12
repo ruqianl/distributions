@@ -1,4 +1,4 @@
-import ./private/rmathlib
+include ./private/rmathlib
 import math
 
 # Dummy for math
