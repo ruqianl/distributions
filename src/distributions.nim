@@ -1,5 +1,4 @@
-import
-  rmath
+import rmath
 
 type Distribution = ref object of RootObj
   ## Base distribution type.

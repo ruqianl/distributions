@@ -1,6 +1,5 @@
-include
-  rmathlib,
-  math
+import ./private/rmathlib
+import math
 
 # Dummy for math
 
