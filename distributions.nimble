@@ -14,8 +14,8 @@ requires "nim >= 0.14.2"
 
 # Tasks
 
-before install:
-  exec "nim e install_librmath.nims"
+# before install:
+#   exec "nim e install_librmath.nims"
 
 task benchmarks, "Running benchmarks":
   withDir "benchmarks":
