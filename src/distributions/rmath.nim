@@ -7,7 +7,7 @@ proc set_seed*(a2: int; a3: int) =
   ## Set random number seed.
   set_seed(a2.cuint,a3.cuint)
 
-proc norm_rand*(): float64 =
+proc norm_rand*(): float64 = 
   ## Generate standard normal random numbers.
   result = Rf_norm_rand().float64
 

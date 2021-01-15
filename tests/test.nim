@@ -1,11 +1,11 @@
-import random
-import rmath
+#import random
+import distributions/rmath
 import distributions
 
 # Random numbers
 
-randomize()
-set_seed(random(2500),random(2500))
+#randomize()
+#set_seed(random(2500),random(2500))
 
 echo norm_rand()
 echo unif_rand()

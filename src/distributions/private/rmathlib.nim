@@ -1,13 +1,13 @@
  {.deadCodeElim: on.}
 when defined(windows):
   const
-    rmathlib* = "Rmath-nim.dll"
+    rmathlib* = "libRmath.dll"
 elif defined(macosx):
   const
-    rmathlib* = "libRmath-nim.dylib"
+    rmathlib* = "libRmath.dylib"
 else:
   const
-    rmathlib* = "libRmath-nim.so"
+    rmathlib* = "libRmath.so"
 
 proc Rf_R_pow(x: cdouble; y: cdouble): cdouble {.cdecl, importc: "R_pow", dynlib: rmathlib.}
 proc Rf_R_pow_di(a2: cdouble; a3: cint): cdouble {.cdecl, importc: "R_pow_di",
